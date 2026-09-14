@@ -1,4 +1,1 @@
-response = ollama.chat(model="llama3.2", messages=[{"role": "user", "content": "hi"}])
-print(type(response))          # confirms it's a ChatResponse object
-print(response.message)        # try this
-print(response.message.content)  # and this
+print(books[0])      # should be a dict like {'title': '1984', 'author': 'George Orwell', ...}
