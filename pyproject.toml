@@ -1,0 +1,19 @@
+[project]
+name = "ai-solution-developer-capsone-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Code-ruto", email = "143857937+Code-ruto@users.noreply.github.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "ollama>=0.6.2",
+]
+
+[project.scripts]
+ai-solution-developer-capsone-project = "ai_solution_developer_capsone_project:main"
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13.0"]
+build-backend = "uv_build"
