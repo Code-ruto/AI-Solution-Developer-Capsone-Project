@@ -94,19 +94,17 @@ def semantic_search(topic: str, threshold: float = 1.0, collection_name: str = C
     return results["metadatas"][0][0]
 
 def search_catalog(user_query: str) -> dict:
-    """Orchestrate intent extraction, exact match, and semantic fallback into one result."""
     intent = extract_intent(user_query)
 
-    exact_result = None
-    if intent["type"] in ("title", "author"):
-        exact_result = find_exact_match(intent["value"])
+    # Always try exact match first, regardless of what the LLM classified 
+    # this protects against misclassification (e.g., a title read as a topic)
+    exact_result = find_exact_match(intent["value"])
 
     if exact_result is not None:
         if exact_result["status"] == "checked out":
             return {"status": "checked_out", "book": exact_result}
         return {"status": "found", "book": exact_result}
 
-    # no exact match (or intent was "topic"/"unknown") — try semantic fallback
     semantic_result = semantic_search(intent["value"])
     if semantic_result is not None:
         if semantic_result["status"] == "checked out":
@@ -114,6 +112,18 @@ def search_catalog(user_query: str) -> dict:
         return {"status": "found", "book": semantic_result}
 
     return {"status": "not_found"}
+
+    return {"status": "not_found"}
+
+def format_response(result: dict) -> str:
+    """Turn a search_catalog result into a natural-language sentence."""
+    prompt = f"""You are a friendly library assistant. Given the following search result,
+write ONE short, natural sentence for the student. Only use the facts given below —
+do not add any information not present here.
+
+Result: {result}
+"""
+    return ask_llm(prompt)
 
 
 if __name__ == "__main__":
