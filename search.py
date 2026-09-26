@@ -1,6 +1,8 @@
 import sqlite3
 import ollama
 import json
+import chromadb
+from config import CHROMA_DB_PATH, COLLECTION_NAME
 
 import ollama
 
@@ -62,7 +64,36 @@ User query: "{user_query}"
 
     return intent
 
+def semantic_search(topic: str, threshold: float = 1.0, collection_name: str = COLLECTION_NAME, persist_dir: str = str(CHROMA_DB_PATH)) -> dict | None:    
+    client = chromadb.PersistentClient(path=persist_dir)
+    collection = client.get_or_create_collection(collection_name)
+
+    print(f"\n--- query: {topic!r}, collection count: {collection.count()} ---")
+
+    if collection.count() == 0:
+        return None
+
+    results = collection.query(query_texts=[topic], n_results=1)
+    print("raw results:", results)  # <-- see the whole thing before any filtering
+
+    if not results.get("distances") or not results["distances"][0]:
+        print("failed the distances-empty check")
+        return None
+
+    distance = results["distances"][0][0]
+    print("distance:", distance)
+
+    if distance > threshold:
+        print("failed the threshold check")
+        return None
+
+    if not results.get("metadatas") or not results["metadatas"][0]:
+        print("failed the metadatas-empty check")
+        return None
+
+    return results["metadatas"][0][0]
+
 if __name__ == "__main__":
-    print(extract_intent("do you have anything by George Orwell?"))
-    print(extract_intent("where can I find 1984?"))
-    print(extract_intent("something about World War II"))
+    for query in ["books about evolution and genetics", "memoir about growing up"]:
+        result = semantic_search(query)
+        print(query, "->", result)

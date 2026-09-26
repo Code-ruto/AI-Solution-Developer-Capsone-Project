@@ -1,1 +1,0 @@
-print(books[0])      # should be a dict like {'title': '1984', 'author': 'George Orwell', ...}
