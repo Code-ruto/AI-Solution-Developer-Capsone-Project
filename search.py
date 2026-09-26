@@ -93,7 +93,30 @@ def semantic_search(topic: str, threshold: float = 1.0, collection_name: str = C
 
     return results["metadatas"][0][0]
 
+def search_catalog(user_query: str) -> dict:
+    """Orchestrate intent extraction, exact match, and semantic fallback into one result."""
+    intent = extract_intent(user_query)
+
+    exact_result = None
+    if intent["type"] in ("title", "author"):
+        exact_result = find_exact_match(intent["value"])
+
+    if exact_result is not None:
+        if exact_result["status"] == "checked out":
+            return {"status": "checked_out", "book": exact_result}
+        return {"status": "found", "book": exact_result}
+
+    # no exact match (or intent was "topic"/"unknown") — try semantic fallback
+    semantic_result = semantic_search(intent["value"])
+    if semantic_result is not None:
+        if semantic_result["status"] == "checked out":
+            return {"status": "checked_out", "book": semantic_result}
+        return {"status": "found", "book": semantic_result}
+
+    return {"status": "not_found"}
+
+
 if __name__ == "__main__":
-    for query in ["books about evolution and genetics", "memoir about growing up"]:
-        result = semantic_search(query)
-        print(query, "->", result)
+    for query in ["do you have 1984?", "do you have anything by Rachel Carson?", "something about ancient military strategy", "purple elephant recipes"]:
+        result = search_catalog(query)
+        print(format_response(result))
