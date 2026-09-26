@@ -7,7 +7,10 @@ user_query = st.chat_input("Ask about a book...")
 
 if user_query:
     with st.spinner("Searching..."):
-        result = search_catalog(user_query)
-        answer = format_response(result)
+        try:
+            result = search_catalog(user_query)
+            answer = format_response(result)
+        except Exception:
+            answer = "Sorry, the assistant is temporarily unavailable. Please try again shortly."
 
     st.chat_message("assistant").write(answer)
