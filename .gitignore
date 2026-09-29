@@ -5,3 +5,4 @@ catalog.db
 chroma_db/
 .env
 tempCodeRunnerFile.py
+docs/
