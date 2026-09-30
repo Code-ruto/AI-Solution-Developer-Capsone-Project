@@ -12,7 +12,6 @@ import time
 
 import requests
 
-# Add or remove subjects here to control variety and total size.
 # Each subject pulls up to `limit` books.
 SUBJECTS = [
     "fiction", "science_fiction", "fantasy", "mystery", "biology",
@@ -28,10 +27,20 @@ HEADERS = {
 }
 
 SHELF_MAP = {
+    # Map books to corrsesponding shelves based on subject.
     "fiction": "Fiction A-Z",
     "science_fiction": "Fiction A-Z",
     "fantasy": "Fiction A-Z",
     "mystery": "Fiction A-Z",
+    "biology": "Nonfiction Science",
+    "poetry": "Nonfiction Literature",
+    "cooking": "Nonfiction Cooking",
+    "travel": "Nonfiction Travel",
+    "sports": "Nonfiction Sports",
+    "computer_science": "Nonfiction Technology",
+    "mathematics": "Nonfiction Math",
+    "biography": "Nonfiction Biography",
+    "history": "Nonfiction History",
 }
 
 
