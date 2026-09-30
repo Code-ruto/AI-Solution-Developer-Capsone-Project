@@ -15,6 +15,7 @@ dependencies = [
     { name = "chromadb" },
     { name = "ollama" },
     { name = "pandas" },
+    { name = "requests" },
     { name = "sentence-transformers" },
     { name = "streamlit" },
 ]
@@ -24,6 +25,7 @@ requires-dist = [
     { name = "chromadb", specifier = ">=1.5.9" },
     { name = "ollama", specifier = ">=0.6.2" },
     { name = "pandas", specifier = ">=3.0.5" },
+    { name = "requests", specifier = ">=2.34.2" },
     { name = "sentence-transformers", specifier = ">=6.0.1" },
     { name = "streamlit", specifier = ">=1.64.0" },
 ]

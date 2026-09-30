@@ -1,29 +1,5 @@
 title,author,subject,shelf,copies,status
-1984,George Orwell,dystopian fiction and totalitarianism,Fiction A-Z,2,available
-The Diary of a Young Girl,Anne Frank,World War II Jewish persecution and survival,Nonfiction 940-949,1,available
-Silent Spring,Rachel Carson,environmental science and pesticide impact,Science 570-579,1,checked out
-Cosmos,Carl Sagan,astronomy and the history of the universe,Science 520-529,3,available
-The Hobbit,J.R.R. Tolkien,fantasy adventure and quest narratives,Fiction A-Z,2,available
-A Brief History of Time,Stephen Hawking,theoretical physics and cosmology,Science 530-539,1,checked out
-The Immortal Life of Henrietta Lacks,Rebecca Skloot,medical ethics and cell biology,Nonfiction 610-619,1,available
-Sapiens,Yuval Noah Harari,human evolution and civilization history,Nonfiction 900-909,2,available
-The Great Gatsby,F. Scott Fitzgerald,Jazz Age society and the American Dream,Fiction A-Z,1,available
-Pride and Prejudice,Jane Austen,19th century romance and social class,Fiction A-Z,2,checked out
-Guns Germs and Steel,Jared Diamond,geography and the origins of inequality,Nonfiction 300-309,1,available
-The Art of War,Sun Tzu,military strategy and ancient philosophy,Nonfiction 350-359,1,available
-Educated,Tara Westover,memoir and self-education,Nonfiction 920-929,1,available
-The Da Vinci Code,Dan Brown,mystery thriller and religious symbolism,Fiction A-Z,3,available
-Thinking Fast and Slow,Daniel Kahneman,cognitive psychology and decision making,Nonfiction 150-159,1,checked out
-Into Thin Air,Jon Krakauer,mountaineering and Mount Everest disaster,Nonfiction 790-799,1,available
-The Selfish Gene,Richard Dawkins,evolutionary biology and genetics,Science 570-579,2,available
-Fahrenheit 451,Ray Bradbury,censorship and dystopian society,Fiction A-Z,1,available
-The Wright Brothers,David McCullough,aviation history and invention,Nonfiction 620-629,1,available
-Freakonomics,Steven Levitt,economics and unconventional analysis,Nonfiction 330-339,1,checked out
-The Catcher in the Rye,J.D. Salinger,teenage alienation and coming of age,Fiction A-Z,2,available
-A People's History of the United States,Howard Zinn,American history from below,Nonfiction 970-979,1,available
-The Omnivore's Dilemma,Michael Pollan,food systems and agriculture,Nonfiction 640-649,1,available
-Dune,Frank Herbert,science fiction and desert ecology,Fiction A-Z,2,available
-The Second World War,Antony Beevor,World War II Pacific and European theaters,Nonfiction 940-949,1,checked out
+Pride and Prejudice,Jane Austen,fiction,Fiction A-Z,2,available
 Alice's Adventures in Wonderland,Lewis Carroll,fiction,Fiction A-Z,1,available
 A Christmas Carol,Charles Dickens,fiction,Fiction A-Z,3,available
 The Picture of Dorian Gray,Oscar Wilde,fiction,Fiction A-Z,3,available
@@ -163,6 +139,7 @@ Lord Jim,Joseph Conrad,travel,Nonfiction Travel,1,available
 Tom Sawyer Abroad,Mark Twain,travel,Nonfiction Travel,3,available
 Astoria,Washington Irving,travel,Nonfiction Travel,2,available
 Sailing alone around the world,Joshua Slocum,travel,Nonfiction Travel,3,available
+The Art of War,孙武 (Sun Tzu),sports,Nonfiction Sports,1,available
 The Young Pitcher,Zane Grey,sports,Nonfiction Sports,3,available
 Drop Shot,Harlan Coben,sports,Nonfiction Sports,2,available
 Maniac Magee,Jerry Spinelli,sports,Nonfiction Sports,2,available
