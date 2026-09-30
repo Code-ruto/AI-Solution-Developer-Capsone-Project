@@ -28,8 +28,6 @@ def find_exact_match(query: str, db_path: str = "catalog.db") -> dict | None:  #
     conn.row_factory = sqlite3.Row  # lets you access columns by name, not just index
     cursor = conn.cursor() # This is the cursor that iterates over the database
 
-    # TODO #1 solved: search title OR author, case-insensitive, using
-    # parameterized ? placeholders (never string-format user input into SQL)
     cursor.execute(
         "SELECT * FROM books WHERE LOWER(title) = LOWER(?) OR LOWER(author) = LOWER(?)",
         (query, query)
@@ -41,8 +39,6 @@ def find_exact_match(query: str, db_path: str = "catalog.db") -> dict | None:  #
     if row is None:
         return None
 
-    # TODO #2 solved: sqlite3.Row supports dict() conversion directly
-    # because of the row_factory line above
     return dict(row)
 
 def extract_intent(user_query: str) -> dict:
