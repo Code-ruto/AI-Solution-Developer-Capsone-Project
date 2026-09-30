@@ -2,6 +2,7 @@ import sqlite3
 import ollama
 import json
 import chromadb
+
 from config import CHROMA_DB_PATH, COLLECTION_NAME
 
 import ollama
@@ -22,28 +23,21 @@ def ask_llm(prompt: str, model: str = "llama3.2") -> str:
 
 
 
-def find_exact_match(query: str, db_path: str = "catalog.db") -> dict | None:  # replace db path with database name
-    """Look up a book by exact title or author match (case-insensitive)."""
+def find_exact_match(query: str, db_path: str = "catalog.db") -> list[dict]:
+    """Look up books by partial title or author match (case-insensitive). Returns a list, possibly empty."""
     conn = sqlite3.connect(db_path)
-    conn.row_factory = sqlite3.Row  # lets you access columns by name, not just index
-    cursor = conn.cursor() # This is the cursor that iterates over the database
+    conn.row_factory = sqlite3.Row
+    cursor = conn.cursor()
 
-    # TODO #1 solved: search title OR author, case-insensitive, using
-    # parameterized ? placeholders (never string-format user input into SQL)
     cursor.execute(
-        "SELECT * FROM books WHERE LOWER(title) = LOWER(?) OR LOWER(author) = LOWER(?)",
-        (query, query)
+        "SELECT * FROM books WHERE LOWER(title) LIKE LOWER(?) OR LOWER(author) LIKE LOWER(?) ORDER BY title",
+        (f"%{query}%", f"%{query}%")
     )
 
-    row = cursor.fetchone()
+    rows = cursor.fetchall()
     conn.close()
 
-    if row is None:
-        return None
-
-    # TODO #2 solved: sqlite3.Row supports dict() conversion directly
-    # because of the row_factory line above
-    return dict(row)
+    return [dict(row) for row in rows]
 
 def extract_intent(user_query: str) -> dict:
     """Use the LLM to classify a query as title/author/topic and extract the search term."""
@@ -64,8 +58,7 @@ User query: "{user_query}"
 
     return intent
 
-def semantic_search(topic: str, threshold: float = 1.0, collection_name: str = COLLECTION_NAME, persist_dir: str = str(CHROMA_DB_PATH)) -> dict | None:    
-    client = chromadb.PersistentClient(path=persist_dir)
+def semantic_search(topic: str, client, threshold: float = 1.0, collection_name: str = COLLECTION_NAME) -> dict | None:
     collection = client.get_or_create_collection(collection_name)
 
     print(f"\n--- query: {topic!r}, collection count: {collection.count()} ---")
@@ -93,40 +86,45 @@ def semantic_search(topic: str, threshold: float = 1.0, collection_name: str = C
 
     return results["metadatas"][0][0]
 
-def search_catalog(user_query: str) -> dict:
+def search_catalog(user_query: str, client) -> dict:
     intent = extract_intent(user_query)
+    print("DEBUG intent:", intent)
 
-    # Always try exact match first, regardless of what the LLM classified 
-    # this protects against misclassification (e.g., a title read as a topic)
-    exact_result = find_exact_match(intent["value"])
+    exact_matches = find_exact_match(intent["value"])
 
-    if exact_result is not None:
-        if exact_result["status"] == "checked out":
-            return {"status": "checked_out", "book": exact_result}
-        return {"status": "found", "book": exact_result}
+    if exact_matches:
+        first = exact_matches[0]
+        result_status = "checked_out" if first["status"] == "checked out" else "found"
+        return {
+            "status": result_status,
+            "book": first,
+            "match_count": len(exact_matches),
+        }
 
-    semantic_result = semantic_search(intent["value"])
+    semantic_result = semantic_search(intent["value"], client)
     if semantic_result is not None:
-        if semantic_result["status"] == "checked out":
-            return {"status": "checked_out", "book": semantic_result}
-        return {"status": "found", "book": semantic_result}
+        result_status = "checked_out" if semantic_result["status"] == "checked out" else "found"
+        return {"status": result_status, "book": semantic_result, "match_count": 1}
 
     return {"status": "not_found"}
-
-    return {"status": "not_found"}
+    
 
 def format_response(result: dict) -> str:
     """Turn a search_catalog result into a natural-language sentence."""
     prompt = f"""You are a friendly library assistant. Given the following search result,
-write ONE short, natural sentence for the student. Only use the facts given below —
-do not add any information not present here.
+        write ONE short, natural sentence for the student. Only use the facts given below,
+        do not add any information not present here. If match_count is greater than 1,
+        mention that there are multiple matches and this is just one of them.
+        Do not include any preamble, introductory text, emojis, or explanation, output only the sentence itself.
 
 Result: {result}
 """
     return ask_llm(prompt)
 
-
 if __name__ == "__main__":
-    for query in ["do you have 1984?", "do you have anything by Rachel Carson?", "something about ancient military strategy", "purple elephant recipes"]:
-        result = search_catalog(query)
+    test_client = chromadb.PersistentClient(path=str(CHROMA_DB_PATH))
+    for query in ["something by Shakespeare", "do you have 1984?", "something about cooking"]:
+        result = search_catalog(query, test_client)
+        print(result)
         print(format_response(result))
+        print()
