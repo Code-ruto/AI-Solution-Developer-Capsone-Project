@@ -26,7 +26,7 @@ if "messages" not in st.session_state:
 for msg in st.session_state.messages:
     st.chat_message(msg["role"]).write(msg["content"])
 
-user_query = st.chat_input("Ask about a book...")
+user_query = st.chat_input("Ask about a book...") # What the user sees in the query box
 
 if user_query:
     st.session_state.messages.append({"role": "user", "content": user_query})
