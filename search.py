@@ -22,7 +22,7 @@ def ask_llm(prompt: str, model: str = "llama3.2") -> str:
 
 
 
-def find_exact_match(query: str, db_path: str = "catalog.db") -> dict | None:  # replace db path with database name
+def find_exact_match(query: str, db_path: str = "catalog.db") -> dict | None:  
     """Look up a book by exact title or author match (case-insensitive)."""
     conn = sqlite3.connect(db_path)
     conn.row_factory = sqlite3.Row  # lets you access columns by name, not just index
