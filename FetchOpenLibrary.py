@@ -13,6 +13,8 @@ import time
 import requests
 
 # Each subject pulls up to `limit` books.
+
+# Books are limited to the subjects below for more accurate subject classification
 SUBJECTS = [
     "fiction", "science_fiction", "fantasy", "mystery", "biology",
     "poetry", "cooking", "travel", "sports",
