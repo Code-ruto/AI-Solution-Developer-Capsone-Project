@@ -21,6 +21,7 @@ from config import CHROMA_DB_PATH, COLLECTION_NAME
 import ollama
 
 def ask_llm(prompt: str, model: str = "llama3.2") -> str:
+    """ Instantiate LLM with logging and error handling."""
     start = time.time()
     response = ollama.chat(
         model=model,
