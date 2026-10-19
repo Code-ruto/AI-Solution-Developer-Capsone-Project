@@ -31,6 +31,7 @@ class SearchIntent(BaseModel):
 
 
 def ask_llm(prompt: str, model: str = "llama3.2") -> str:
+    """ Instantiate LLM with logging and error handling."""
     start = time.time()
     response = ollama.chat(
         model=model,

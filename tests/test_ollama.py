@@ -41,3 +41,17 @@ def test_ask_llm_raises_when_model_returns_no_content(monkeypatch):
 
     with pytest.raises(ValueError, match="Model returned no content"):
         search.ask_llm("Find a book")
+import ollama
+
+def ask_llm(prompt: str, model: str = "llama3.2") -> str: 
+    """Converts all parameters into string type data. Instantiates llama 3.2 llm instance
+    and sets the response to get the prompt from users. Will return the content of the response.
+    Handles empty content returns with message displaying that no model content was returned."""
+    response = ollama.chat(
+        model=model,
+        messages=[{"role": "user", "content": prompt}],
+    )
+    content = response.message.content
+    if content is None:
+        raise ValueError("Model returned no content")
+    return content  

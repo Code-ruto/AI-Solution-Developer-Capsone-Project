@@ -3,19 +3,19 @@ import chromadb
 from config import CHROMA_DB_PATH
 from search import search_catalog, format_response
 
-st.set_page_config(
+st.set_page_config( # Setting page configuration
     page_title="Library Book Finder",
     page_icon="",
     layout="centered",
 )
 
 
-@st.cache_resource
-def get_chroma_client():
-    return chromadb.PersistentClient(path=str(CHROMA_DB_PATH))
+@st.cache_resource # Tells streamlit to run function below only once upon loading
+def get_chroma_client(): 
+    return chromadb.PersistentClient(path=str(CHROMA_DB_PATH)) # Initializes chromadb database and saves it locally to CHROMA_DB_PATH
 
 
-client = get_chroma_client()
+client = get_chroma_client() # Instantiate client
 
 st.title("📖 Library Book Finder")
 st.caption("Ask me about a title, author, or topic and I'll point you to the shelf.")
