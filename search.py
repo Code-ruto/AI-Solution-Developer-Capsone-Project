@@ -1,12 +1,14 @@
 import sqlite3
 import ollama
-import json
 import chromadb
 import logging
 import time
+from typing import Literal
 
 import logging
 import time
+
+from pydantic import BaseModel, ConfigDict, Field
 
 logging.basicConfig(
     level=logging.INFO,
@@ -19,6 +21,14 @@ logger = logging.getLogger(__name__)
 from config import CHROMA_DB_PATH, COLLECTION_NAME
 
 import ollama
+
+
+class SearchIntent(BaseModel):
+    model_config = ConfigDict(extra="forbid", strict=True, str_strip_whitespace=True)
+
+    type: Literal["title", "author", "topic"]
+    value: str = Field(min_length=1)
+
 
 def ask_llm(prompt: str, model: str = "llama3.2") -> str:
     start = time.time()
@@ -59,11 +69,7 @@ def extract_intent(user_query: str) -> dict:
 User query: "{user_query}"
 """
     raw_response = ask_llm(prompt)
-
-    try:
-        intent = json.loads(raw_response)
-    except json.JSONDecodeError:
-        intent = {"type": "unknown", "value": user_query}
+    intent = SearchIntent.model_validate_json(raw_response).model_dump()
 
     logger.info(f"extract_intent total: {time.time() - start:.2f}s, intent={intent}")
     return intent
@@ -118,17 +124,14 @@ def search_catalog(user_query: str, client) -> dict:
     
 
 def format_response(result: dict) -> str:
-    """Turn a search_catalog result into a natural-language sentence, no LLM needed."""
-    if result["status"] == "not_found":
-        return "Sorry, I couldn't find anything matching that in our catalog."
+    """Turn a search_catalog result into a natural-language sentence."""
+    prompt = f"""You are a friendly library assistant. Given the following search result,
+write ONE short, natural sentence for the student. Only use the facts given below —
+do not add any information not present here.
 
-    book = result["book"]
-    multiple_note = f" (one of {result['match_count']} matches)" if result.get("match_count", 1) > 1 else ""
-
-    if result["status"] == "checked_out":
-        return f'"{book["title"]}" by {book["author"]} is currently checked out{multiple_note}.'
-
-    return f'"{book["title"]}" by {book["author"]} is available on the {book["shelf"]} shelf{multiple_note}.'
+Result: {result}
+"""
+    return ask_llm(prompt)
 
 
 if __name__ == "__main__":
