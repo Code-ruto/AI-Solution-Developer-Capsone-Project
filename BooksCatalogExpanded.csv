@@ -1,212 +1,212 @@
 title,author,subject,shelf,copies,status
-Pride and Prejudice,Jane Austen,fiction,Fiction A-Z,2,available
-Alice's Adventures in Wonderland,Lewis Carroll,fiction,Fiction A-Z,1,available
-A Christmas Carol,Charles Dickens,fiction,Fiction A-Z,3,available
-The Picture of Dorian Gray,Oscar Wilde,fiction,Fiction A-Z,3,available
-Wuthering Heights,Emily Brontë,fiction,Fiction A-Z,2,checked out
-Adventures of Huckleberry Finn,Mark Twain,fiction,Fiction A-Z,2,available
+Pride and Prejudice,Jane Austen,fiction,Fiction A-Z,3,available
+Alice's Adventures in Wonderland,Lewis Carroll,fiction,Fiction A-Z,2,available
+A Christmas Carol,Charles Dickens,fiction,Fiction A-Z,1,available
+The Picture of Dorian Gray,Oscar Wilde,fiction,Fiction A-Z,1,checked out
+Wuthering Heights,Emily Brontë,fiction,Fiction A-Z,2,available
+Adventures of Huckleberry Finn,Mark Twain,fiction,Fiction A-Z,3,available
 The Scarlet Letter,Nathaniel Hawthorne,fiction,Fiction A-Z,3,available
 Robinson Crusoe,Daniel Defoe,fiction,Fiction A-Z,3,available
 Hamlet,William Shakespeare,fiction,Fiction A-Z,2,available
-Emma,Jane Austen,fiction,Fiction A-Z,3,available
-Oliver Twist,Charles Dickens,fiction,Fiction A-Z,3,available
-"Frankenstein; or, The Modern Prometheus",Mary Shelley,fiction,Fiction A-Z,2,available
-Sense and Sensibility,Jane Austen,fiction,Fiction A-Z,2,checked out
-A Tale of Two Cities,Charles Dickens,fiction,Fiction A-Z,1,available
-The Wonderful Wizard of Oz,L. Frank Baum,fiction,Fiction A-Z,1,available
-Treasure Island,Robert Louis Stevenson,fiction,Fiction A-Z,3,available
-Dracula,Bram Stoker,fiction,Fiction A-Z,3,available
-Little Women,Louisa May Alcott,fiction,Fiction A-Z,3,available
-Macbeth,William Shakespeare,fiction,Fiction A-Z,3,available
-Othello,William Shakespeare,fiction,Fiction A-Z,2,available
+Emma,Jane Austen,fiction,Fiction A-Z,2,available
+Oliver Twist,Charles Dickens,fiction,Fiction A-Z,2,available
+"Frankenstein; or, The Modern Prometheus",Mary Shelley,fiction,Fiction A-Z,1,checked out
+Sense and Sensibility,Jane Austen,fiction,Fiction A-Z,1,available
+A Tale of Two Cities,Charles Dickens,fiction,Fiction A-Z,2,available
+The Wonderful Wizard of Oz,L. Frank Baum,fiction,Fiction A-Z,3,available
+Treasure Island,Robert Louis Stevenson,fiction,Fiction A-Z,1,available
+Dracula,Bram Stoker,fiction,Fiction A-Z,2,available
+Little Women,Louisa May Alcott,fiction,Fiction A-Z,2,checked out
+Macbeth,William Shakespeare,fiction,Fiction A-Z,2,available
+Othello,William Shakespeare,fiction,Fiction A-Z,2,checked out
 The Time Machine,H. G. Wells,science fiction,Fiction A-Z,1,available
-The Lost World,Arthur Conan Doyle,science fiction,Fiction A-Z,3,available
-Nineteen Eighty-Four,George Orwell,science fiction,Fiction A-Z,1,checked out
-Brave New World,Aldous Huxley,science fiction,Fiction A-Z,2,available
-The Jewel of Seven Stars,Bram Stoker,science fiction,Fiction A-Z,1,checked out
-The Iron Heel,Jack London,science fiction,Fiction A-Z,3,available
-Flatland,Edwin Abbott Abbott,science fiction,Fiction A-Z,2,available
-The Invisible Man,H. G. Wells,science fiction,Fiction A-Z,1,available
+The Lost World,Arthur Conan Doyle,science fiction,Fiction A-Z,1,checked out
+Nineteen Eighty-Four,George Orwell,science fiction,Fiction A-Z,2,available
+Brave New World,Aldous Huxley,science fiction,Fiction A-Z,1,available
+The Jewel of Seven Stars,Bram Stoker,science fiction,Fiction A-Z,1,available
+The Iron Heel,Jack London,science fiction,Fiction A-Z,2,available
+Flatland,Edwin Abbott Abbott,science fiction,Fiction A-Z,3,available
+The Invisible Man,H. G. Wells,science fiction,Fiction A-Z,3,available
 The Princess and Curdie,George MacDonald,science fiction,Fiction A-Z,3,available
-The War of the Worlds,H. G. Wells,science fiction,Fiction A-Z,3,available
-A Princess of Mars,Edgar Rice Burroughs,science fiction,Fiction A-Z,2,available
-The Napoleon of Notting Hill,Gilbert Keith Chesterton,science fiction,Fiction A-Z,2,available
-The Last Man,Mary Shelley,science fiction,Fiction A-Z,1,available
-Le Tour du Monde en Quatre-Vingts Jours,Jules Verne,science fiction,Fiction A-Z,3,available
-The warlord of Mars #3,Edgar Rice Burroughs,science fiction,Fiction A-Z,1,available
-Vingt mille lieues sous les mers,Jules Verne,science fiction,Fiction A-Z,3,available
-Gulliver's Travels,Jonathan Swift,fantasy,Fiction A-Z,2,available
-A Midsummer Night's Dream,William Shakespeare,fantasy,Fiction A-Z,1,available
-The Prince,Niccolò Machiavelli,fantasy,Fiction A-Z,2,available
-Through the Looking-Glass,Lewis Carroll,fantasy,Fiction A-Z,1,available
-The Wind in the Willows,Kenneth Grahame,fantasy,Fiction A-Z,3,available
-Five Children and It,Edith Nesbit,fantasy,Fiction A-Z,1,available
-The Princess and the Goblin,George MacDonald,fantasy,Fiction A-Z,1,available
-The Marvelous Land of Oz,L. Frank Baum,fantasy,Fiction A-Z,3,available
-Ozma of Oz,L. Frank Baum,fantasy,Fiction A-Z,2,available
-Le petit prince,Antoine de Saint-Exupéry,fantasy,Fiction A-Z,2,available
-The Emerald City of Oz,L. Frank Baum,fantasy,Fiction A-Z,1,available
+The War of the Worlds,H. G. Wells,science fiction,Fiction A-Z,2,available
+A Princess of Mars,Edgar Rice Burroughs,science fiction,Fiction A-Z,1,available
+The Napoleon of Notting Hill,Gilbert Keith Chesterton,science fiction,Fiction A-Z,1,available
+The Last Man,Mary Shelley,science fiction,Fiction A-Z,1,checked out
+Le Tour du Monde en Quatre-Vingts Jours,Jules Verne,science fiction,Fiction A-Z,2,available
+The warlord of Mars #3,Edgar Rice Burroughs,science fiction,Fiction A-Z,3,available
+Vingt mille lieues sous les mers,Jules Verne,science fiction,Fiction A-Z,2,available
+Gulliver's Travels,Jonathan Swift,fantasy,Fiction A-Z,3,available
+A Midsummer Night's Dream,William Shakespeare,fantasy,Fiction A-Z,2,available
+The Prince,Niccolò Machiavelli,fantasy,Fiction A-Z,3,checked out
+Through the Looking-Glass,Lewis Carroll,fantasy,Fiction A-Z,2,checked out
+The Wind in the Willows,Kenneth Grahame,fantasy,Fiction A-Z,1,available
+Five Children and It,Edith Nesbit,fantasy,Fiction A-Z,3,available
+The Princess and the Goblin,George MacDonald,fantasy,Fiction A-Z,3,available
+The Marvelous Land of Oz,L. Frank Baum,fantasy,Fiction A-Z,1,available
+Ozma of Oz,L. Frank Baum,fantasy,Fiction A-Z,2,checked out
+Le petit prince,Antoine de Saint-Exupéry,fantasy,Fiction A-Z,1,available
+The Emerald City of Oz,L. Frank Baum,fantasy,Fiction A-Z,2,available
 Dorothy and the Wizard in Oz,L. Frank Baum,fantasy,Fiction A-Z,2,available
-The Lost Princess of Oz,L. Frank Baum,fantasy,Fiction A-Z,2,available
-The Story of the Amulet,Edith Nesbit,fantasy,Fiction A-Z,3,available
+The Lost Princess of Oz,L. Frank Baum,fantasy,Fiction A-Z,1,available
+The Story of the Amulet,Edith Nesbit,fantasy,Fiction A-Z,1,available
 The Complete Life and Adventures of Santa Claus,L. Frank Baum,fantasy,Fiction A-Z,1,available
-The Hound of the Baskervilles,Arthur Conan Doyle,mystery,Fiction A-Z,1,checked out
-Преступление и наказание,Fiódor Dostoievski,mystery,Fiction A-Z,1,available
-The Adventures of Sherlock Holmes [12 stories],Arthur Conan Doyle,mystery,Fiction A-Z,3,available
+The Hound of the Baskervilles,Arthur Conan Doyle,mystery,Fiction A-Z,1,available
+Преступление и наказание,Fiódor Dostoievski,mystery,Fiction A-Z,2,available
+The Adventures of Sherlock Holmes [12 stories],Arthur Conan Doyle,mystery,Fiction A-Z,2,checked out
 The Man Who Was Thursday,Gilbert Keith Chesterton,mystery,Fiction A-Z,3,available
-The Mysterious Affair at Styles,Agatha Christie,mystery,Fiction A-Z,2,available
+The Mysterious Affair at Styles,Agatha Christie,mystery,Fiction A-Z,1,available
 The Secret Adversary,Agatha Christie,mystery,Fiction A-Z,1,available
-The mystery of Edwin Drood,Charles Dickens,mystery,Fiction A-Z,1,checked out
+The mystery of Edwin Drood,Charles Dickens,mystery,Fiction A-Z,1,available
 His Last Bow [8 stories],Arthur Conan Doyle,mystery,Fiction A-Z,2,available
-Heart of Darkness,Joseph Conrad,mystery,Fiction A-Z,2,available
-The Riddle of the Sands,Erskine Childers,mystery,Fiction A-Z,1,available
+Heart of Darkness,Joseph Conrad,mystery,Fiction A-Z,1,available
+The Riddle of the Sands,Erskine Childers,mystery,Fiction A-Z,2,available
 Greenmantle,John Buchan,mystery,Fiction A-Z,1,available
-Basil,Wilkie Collins,mystery,Fiction A-Z,3,available
+Basil,Wilkie Collins,mystery,Fiction A-Z,2,available
 Harry Potter and the Philosopher's Stone,J. K. Rowling,mystery,Fiction A-Z,2,available
-The Law and the Lady,Wilkie Collins,mystery,Fiction A-Z,3,available
-Trent's Last Case,E. C. Bentley,mystery,Fiction A-Z,2,available
-Prester John,John Buchan,mystery,Fiction A-Z,1,available
-Whose Body?,Dorothy L. Sayers,mystery,Fiction A-Z,2,available
-The Black Robe,Wilkie Collins,mystery,Fiction A-Z,1,available
-Murder on the Links,Agatha Christie,mystery,Fiction A-Z,3,available
-Armadale,Wilkie Collins,mystery,Fiction A-Z,3,available
-De rerum natura,Titus Lucretius Carus,biology,Nonfiction Biology,2,available
-Histoire naturelle,"Georges-Louis Leclerc, comte de Buffon",biology,Nonfiction Biology,1,available
-Kokuritsu Kokkai Toshokan shozō Meijiki kankō tosho maikuro-ban shūsei,Kokuritsu Kokkai Toshokan (Japan),biology,Nonfiction Biology,3,available
-International Review of Cell and Molecular Biology,Kwang W. Jeon,biology,Nonfiction Biology,3,available
-Introduction to genetic analysis,Anthony J. F. Griffiths,biology,Nonfiction Biology,2,available
-Le Deuxième Sexe,Simone de Beauvoir,biology,Nonfiction Biology,2,available
-Physics,Aristotle,biology,Nonfiction Biology,3,available
-Microbiology,Gerard J. Tortora,biology,Nonfiction Biology,1,available
-The natural history of Selborne,Gilbert White,biology,Nonfiction Biology,3,available
-Differentiating Instruction With Menus,Laurie E. Westphal,biology,Nonfiction Biology,3,available
-Vestiges of the Natural History of Creation,Robert Chambers,biology,Nonfiction Biology,3,available
-"Travels through the interior parts of North America, in the years 1766, 1767, and 1768",Jonathan Carver,biology,Nonfiction Biology,1,checked out
-Inquiry into Life,Sylvia S. Mader,biology,Nonfiction Biology,1,available
-The expression of emotions in man and animals,Charles Darwin,biology,Nonfiction Biology,3,available
-Biology,Neil Allison Campbell,biology,Nonfiction Biology,3,available
-Systema naturae,Carl Linnaeus,biology,Nonfiction Biology,3,available
-Advances in Medicine and Biology,Leon V. Berhardt,biology,Nonfiction Biology,3,available
-La Divina Commedia,Dante Alighieri,poetry,Nonfiction Poetry,3,available
-Ἰλιάς,Ὅμηρος,poetry,Nonfiction Poetry,2,available
-Ὀδύσσεια,Ὅμηρος,poetry,Nonfiction Poetry,1,available
-Leaves of Grass,Walt Whitman,poetry,Nonfiction Poetry,1,available
-Metamorfosi,Ovid,poetry,Nonfiction Poetry,3,available
-The Canterbury Tales,Geoffrey Chaucer,poetry,Nonfiction Poetry,1,available
-Aeneis,Publius Vergilius Maro,poetry,Nonfiction Poetry,1,available
-Sonnets,William Shakespeare,poetry,Nonfiction Poetry,2,available
-Faust,Johann Wolfgang von Goethe,poetry,Nonfiction Poetry,2,available
-The Prophet,Kahlil Gibran,poetry,Nonfiction Poetry,3,available
-Metamorphoses,Ovid,poetry,Nonfiction Poetry,1,available
-La Poetica,Aristotle,poetry,Nonfiction Poetry,3,available
-Flower Fables,Louisa May Alcott,poetry,Nonfiction Poetry,1,available
-Inferno,Dante Alighieri,poetry,Nonfiction Poetry,2,available
-Paradise Lost,John Milton,poetry,Nonfiction Poetry,3,available
-The Night Before Christmas,Clement Clarke Moore,poetry,Nonfiction Poetry,1,available
-The pioneers,James Fenimore Cooper,poetry,Nonfiction Poetry,3,available
-Frugal housewife,Lydia Maria Child,cooking,Nonfiction Cooking,3,available
-Boston Cooking-School cook book,Fannie Merritt Farmer,cooking,Nonfiction Cooking,1,checked out
-Como agua para chocolate,Laura Esquivel,cooking,Nonfiction Cooking,2,available
-The Virginia house-wife,Mary Randolph,cooking,Nonfiction Cooking,2,available
-On Cooking,Sarah R. Labensky,cooking,Nonfiction Cooking,3,available
+The Law and the Lady,Wilkie Collins,mystery,Fiction A-Z,1,checked out
+Trent's Last Case,E. C. Bentley,mystery,Fiction A-Z,3,checked out
+Prester John,John Buchan,mystery,Fiction A-Z,2,available
+Whose Body?,Dorothy L. Sayers,mystery,Fiction A-Z,3,available
+The Black Robe,Wilkie Collins,mystery,Fiction A-Z,1,checked out
+Murder on the Links,Agatha Christie,mystery,Fiction A-Z,2,available
+Armadale,Wilkie Collins,mystery,Fiction A-Z,1,available
+De rerum natura,Titus Lucretius Carus,biology,Nonfiction Science,2,available
+Histoire naturelle,"Georges-Louis Leclerc, comte de Buffon",biology,Nonfiction Science,3,available
+Kokuritsu Kokkai Toshokan shozō Meijiki kankō tosho maikuro-ban shūsei,Kokuritsu Kokkai Toshokan (Japan),biology,Nonfiction Science,3,checked out
+International Review of Cell and Molecular Biology,Kwang W. Jeon,biology,Nonfiction Science,1,checked out
+Introduction to genetic analysis,Anthony J. F. Griffiths,biology,Nonfiction Science,3,available
+Le Deuxième Sexe,Simone de Beauvoir,biology,Nonfiction Science,1,available
+Physics,Aristotle,biology,Nonfiction Science,1,available
+Microbiology,Gerard J. Tortora,biology,Nonfiction Science,1,available
+The natural history of Selborne,Gilbert White,biology,Nonfiction Science,1,available
+Differentiating Instruction With Menus,Laurie E. Westphal,biology,Nonfiction Science,1,available
+Vestiges of the Natural History of Creation,Robert Chambers,biology,Nonfiction Science,2,available
+"Travels through the interior parts of North America, in the years 1766, 1767, and 1768",Jonathan Carver,biology,Nonfiction Science,3,available
+Inquiry into Life,Sylvia S. Mader,biology,Nonfiction Science,1,available
+The expression of emotions in man and animals,Charles Darwin,biology,Nonfiction Science,2,available
+Biology,Neil Allison Campbell,biology,Nonfiction Science,2,available
+Systema naturae,Carl Linnaeus,biology,Nonfiction Science,3,available
+Advances in Medicine and Biology,Leon V. Berhardt,biology,Nonfiction Science,3,available
+La Divina Commedia,Dante Alighieri,poetry,Nonfiction Literature,2,checked out
+Ἰλιάς,Ὅμηρος,poetry,Nonfiction Literature,1,available
+Ὀδύσσεια,Ὅμηρος,poetry,Nonfiction Literature,2,available
+Leaves of Grass,Walt Whitman,poetry,Nonfiction Literature,2,available
+Metamorfosi,Ovid,poetry,Nonfiction Literature,3,available
+The Canterbury Tales,Geoffrey Chaucer,poetry,Nonfiction Literature,3,available
+Aeneis,Publius Vergilius Maro,poetry,Nonfiction Literature,1,checked out
+Sonnets,William Shakespeare,poetry,Nonfiction Literature,2,available
+Faust,Johann Wolfgang von Goethe,poetry,Nonfiction Literature,2,available
+The Prophet,Kahlil Gibran,poetry,Nonfiction Literature,2,available
+Metamorphoses,Ovid,poetry,Nonfiction Literature,3,available
+La Poetica,Aristotle,poetry,Nonfiction Literature,1,available
+Flower Fables,Louisa May Alcott,poetry,Nonfiction Literature,3,available
+Inferno,Dante Alighieri,poetry,Nonfiction Literature,3,available
+Paradise Lost,John Milton,poetry,Nonfiction Literature,2,checked out
+The Night Before Christmas,Clement Clarke Moore,poetry,Nonfiction Literature,2,available
+The pioneers,James Fenimore Cooper,poetry,Nonfiction Literature,1,available
+Frugal housewife,Lydia Maria Child,cooking,Nonfiction Cooking,2,checked out
+Boston Cooking-School cook book,Fannie Merritt Farmer,cooking,Nonfiction Cooking,2,available
+Como agua para chocolate,Laura Esquivel,cooking,Nonfiction Cooking,3,available
+The Virginia house-wife,Mary Randolph,cooking,Nonfiction Cooking,3,checked out
+On Cooking,Sarah R. Labensky,cooking,Nonfiction Cooking,2,checked out
 Old Cookery Books and Ancient Cuisine,William Carew Hazlitt,cooking,Nonfiction Cooking,2,available
-Joy of Cooking,Irma S. Rombauer,cooking,Nonfiction Cooking,2,available
-The Bartender's Guide,Jerry Thomas,cooking,Nonfiction Cooking,1,available
+Joy of Cooking,Irma S. Rombauer,cooking,Nonfiction Cooking,1,available
+The Bartender's Guide,Jerry Thomas,cooking,Nonfiction Cooking,2,checked out
 国立 国会 図書館 所蔵 明治期 刋行 図書 マイクロ版 集成,Kokuritsu Kokkai Toshokan (Japan),cooking,Nonfiction Cooking,1,available
-Physiologie du goût,Jean Anthelme Brillat-Savarin,cooking,Nonfiction Cooking,1,available
+Physiologie du goût,Jean Anthelme Brillat-Savarin,cooking,Nonfiction Cooking,3,available
 The Book of Household Management,Isabella Beeton,cooking,Nonfiction Cooking,3,available
-Food and feeding,Sir Henry Thompson,cooking,Nonfiction Cooking,3,checked out
-English housewifery exemplified,Elizabeth Moxon,cooking,Nonfiction Cooking,3,available
-Original White House Cookbook,Hugo Ziemann,cooking,Nonfiction Cooking,2,checked out
+Food and feeding,Sir Henry Thompson,cooking,Nonfiction Cooking,1,available
+English housewifery exemplified,Elizabeth Moxon,cooking,Nonfiction Cooking,2,available
+Original White House Cookbook,Hugo Ziemann,cooking,Nonfiction Cooking,2,available
 Guide culinaire,Auguste Escoffier,cooking,Nonfiction Cooking,1,available
-"The art of cookery, made plain and easy",Hannah Glasse,cooking,Nonfiction Cooking,1,available
-Miss Beecher's domestic receipt book,Catharine Esther Beecher,cooking,Nonfiction Cooking,2,available
-The American Woman\'s Home,Catharine Esther Beecher,cooking,Nonfiction Cooking,3,available
-Fast Food Nation,Eric Schlosser,cooking,Nonfiction Cooking,2,available
+"The art of cookery, made plain and easy",Hannah Glasse,cooking,Nonfiction Cooking,1,checked out
+Miss Beecher's domestic receipt book,Catharine Esther Beecher,cooking,Nonfiction Cooking,3,available
+The American Woman\'s Home,Catharine Esther Beecher,cooking,Nonfiction Cooking,2,available
+Fast Food Nation,Eric Schlosser,cooking,Nonfiction Cooking,2,checked out
 Three Men in a Boat (to say nothing of the dog),Jerome Klapka Jérôme,travel,Nonfiction Travel,3,available
-King Solomon's Mines,H. Rider Haggard,travel,Nonfiction Travel,1,available
-All's Well That Ends Well,William Shakespeare,travel,Nonfiction Travel,1,checked out
-A Connecticut Yankee in King Arthur's Court,Mark Twain,travel,Nonfiction Travel,1,available
-A Room with a View,E. M. Forster,travel,Nonfiction Travel,2,available
-The Prisoner of Zenda,Anthony Hope,travel,Nonfiction Travel,2,available
+King Solomon's Mines,H. Rider Haggard,travel,Nonfiction Travel,3,checked out
+All's Well That Ends Well,William Shakespeare,travel,Nonfiction Travel,2,available
+A Connecticut Yankee in King Arthur's Court,Mark Twain,travel,Nonfiction Travel,1,checked out
+A Room with a View,E. M. Forster,travel,Nonfiction Travel,1,available
+The Prisoner of Zenda,Anthony Hope,travel,Nonfiction Travel,3,available
 Voyage Out,Virginia Woolf,travel,Nonfiction Travel,2,available
-The Alhambra,Washington Irving,travel,Nonfiction Travel,1,available
-Roughing It,Mark Twain,travel,Nonfiction Travel,3,available
-Two years before the mast,Richard Henry Dana,travel,Nonfiction Travel,2,available
-Os Lusíadas,Luís de Camões,travel,Nonfiction Travel,3,available
+The Alhambra,Washington Irving,travel,Nonfiction Travel,2,available
+Roughing It,Mark Twain,travel,Nonfiction Travel,1,available
+Two years before the mast,Richard Henry Dana,travel,Nonfiction Travel,3,available
+Os Lusíadas,Luís de Camões,travel,Nonfiction Travel,1,available
 "The sketch-book of Geoffrey Crayon, Esq",Washington Irving,travel,Nonfiction Travel,3,available
-Lord Jim,Joseph Conrad,travel,Nonfiction Travel,1,available
-Tom Sawyer Abroad,Mark Twain,travel,Nonfiction Travel,3,available
+Lord Jim,Joseph Conrad,travel,Nonfiction Travel,3,available
+Tom Sawyer Abroad,Mark Twain,travel,Nonfiction Travel,1,available
 Astoria,Washington Irving,travel,Nonfiction Travel,2,available
-Sailing alone around the world,Joshua Slocum,travel,Nonfiction Travel,3,available
-The Art of War,孙武 (Sun Tzu),sports,Nonfiction Sports,1,available
-The Young Pitcher,Zane Grey,sports,Nonfiction Sports,3,available
+Sailing alone around the world,Joshua Slocum,travel,Nonfiction Travel,2,checked out
+The Art of War,孙武 (Sun Tzu),sports,Nonfiction Sports,2,checked out
+The Young Pitcher,Zane Grey,sports,Nonfiction Sports,3,checked out
 Drop Shot,Harlan Coben,sports,Nonfiction Sports,2,available
-Maniac Magee,Jerry Spinelli,sports,Nonfiction Sports,2,available
-Textes et documents du Cameroun (1815-2012),Magloire Ondoa,sports,Nonfiction Sports,3,checked out
-Quidditch Through the Ages,J. K. Rowling,sports,Nonfiction Sports,1,available
-Wild sports of the West,W. H. (William Hamilton) Maxwell,sports,Nonfiction Sports,3,available
-Chain & Anchors,Fairfax Hall,sports,Nonfiction Sports,3,available
-河南省志,Henan Sheng di fang shi zhi bian zuan wei yuan hui,sports,Nonfiction Sports,1,checked out
-Football in Sun and Shadow,Eduardo Galeano,sports,Nonfiction Sports,2,available
-Born to Run,Christopher McDougall,sports,Nonfiction Sports,1,available
-Na dne,Максим Горький,sports,Nonfiction Sports,3,available
-The Sports Encyclopedia,Richard M. Cohen,sports,Nonfiction Sports,3,available
-"Cavalier, The",Gloucester High School,sports,Nonfiction Sports,2,available
+Maniac Magee,Jerry Spinelli,sports,Nonfiction Sports,3,checked out
+Textes et documents du Cameroun (1815-2012),Magloire Ondoa,sports,Nonfiction Sports,3,available
+Quidditch Through the Ages,J. K. Rowling,sports,Nonfiction Sports,2,available
+Wild sports of the West,W. H. (William Hamilton) Maxwell,sports,Nonfiction Sports,2,available
+Chain & Anchors,Fairfax Hall,sports,Nonfiction Sports,2,checked out
+河南省志,Henan Sheng di fang shi zhi bian zuan wei yuan hui,sports,Nonfiction Sports,3,available
+Football in Sun and Shadow,Eduardo Galeano,sports,Nonfiction Sports,2,checked out
+Na dne,Максим Горький,sports,Nonfiction Sports,2,available
+Born to Run,Christopher McDougall,sports,Nonfiction Sports,2,available
+The Sports Encyclopedia,Richard M. Cohen,sports,Nonfiction Sports,1,available
+"Cavalier, The",Gloucester High School,sports,Nonfiction Sports,1,available
 Playing for Pizza,John Grisham,sports,Nonfiction Sports,1,available
-The boy's own book,"Clarke, William",sports,Nonfiction Sports,2,checked out
-Soccernomics,Simon Kuper,sports,Nonfiction Sports,3,checked out
-Hapkido,Marc Tedeschi,sports,Nonfiction Sports,3,available
+The boy's own book,"Clarke, William",sports,Nonfiction Sports,1,available
+Soccernomics,Simon Kuper,sports,Nonfiction Sports,2,available
+Hapkido,Marc Tedeschi,sports,Nonfiction Sports,2,available
 Eyeshield 21,Riichiro Inagaki,sports,Nonfiction Sports,3,available
-"Advances in Computers, Volume 49 (Advances in Computers)",Marvin V. Zelkowitz,computer science,Nonfiction Computer Science,3,available
-Job scheduling strategies for parallel processing,"JSSPP'99 (1999 San Juan, P.R.)",computer science,Nonfiction Computer Science,1,available
-Transactions on Engineering Technologies,Sio-Iong Ao,computer science,Nonfiction Computer Science,1,available
-Hacking for Dummies,Kevin Beaver,computer science,Nonfiction Computer Science,2,available
-Artificial Intelligence Applications and Innovations,Lazaros S. Iliadis,computer science,Nonfiction Computer Science,2,available
-Computational Linguistics and Intelligent Text Processing,Alexander Gelbukh,computer science,Nonfiction Computer Science,2,available
-Artificial Intelligence and Soft Computing,Leszek Rutkowski,computer science,Nonfiction Computer Science,1,available
-Intelligent Robotics and Applications,Honghai Liu,computer science,Nonfiction Computer Science,3,available
-Pattern Recognition,Cheng-Lin Liu,computer science,Nonfiction Computer Science,3,available
-Computer Concepts,June Jamrich Parsons,computer science,Nonfiction Computer Science,2,available
-"Cooperative Design, Visualization, and Engineering",Yuhua Luo,computer science,Nonfiction Computer Science,1,available
-Advances in Swarm Intelligence,Ying Tan,computer science,Nonfiction Computer Science,3,checked out
-Systems Analysis and Design,Alan Dennis,computer science,Nonfiction Computer Science,2,checked out
-Advances in Computers,Marshall C. Yovits,computer science,Nonfiction Computer Science,1,available
-Advances in visual computing,George Bebis,computer science,Nonfiction Computer Science,2,available
-BTEC National for IT Practitioners,Sharon Yull,computer science,Nonfiction Computer Science,1,available
-Java software solutions,"Lewis, John",computer science,Nonfiction Computer Science,2,available
-Computer Confluence,George Beekman,computer science,Nonfiction Computer Science,2,available
-Linear Algebra with Applications,Gareth Williams,computer science,Nonfiction Computer Science,2,checked out
-Heinemann Mathematics,Scottish Primary Mathematics Group,mathematics,Nonfiction Mathematics,2,checked out
-Elements,Euclid,mathematics,Nonfiction Mathematics,1,available
-Philosophiae naturalis principia mathematica,Sir Isaac Newton,mathematics,Nonfiction Mathematics,2,available
-La charca del diablo,George Sand,mathematics,Nonfiction Mathematics,2,available
-Duineser Elegien,Rainer Maria Rilke,mathematics,Nonfiction Mathematics,3,available
-Essential Maths,Sean McArdle,mathematics,Nonfiction Mathematics,3,available
-A Course of Pure Mathematics,G. H. Hardy,mathematics,Nonfiction Mathematics,1,available
-Mathematics,McGraw-Hill,mathematics,Nonfiction Mathematics,2,available
-The economy of machinery and manufactures,Charles Babbage,mathematics,Nonfiction Mathematics,2,available
-Primary Mathematics (SPMG),Scottish Primary Mathematics Group,mathematics,Nonfiction Mathematics,1,available
-Fu qiang zhai cong shu zheng quan ji,Junde Yuan,mathematics,Nonfiction Mathematics,3,checked out
-Linear algebra and its applications,David C. Lay,mathematics,Nonfiction Mathematics,2,available
-La science et l'hypothèse,Henri Poincaré,mathematics,Nonfiction Mathematics,1,available
-Eureka Math - a Story of Units,Great Minds,mathematics,Nonfiction Mathematics,2,available
-Introductory Mathematical Analysis,Ernest F. Haeussler,mathematics,Nonfiction Mathematics,2,available
-A course of modern analysis,E. T. Whittaker,mathematics,Nonfiction Mathematics,3,available
-Don Quijote de la Mancha,Miguel de Cervantes Saavedra,biography,Nonfiction Biography,1,available
-Julius Caesar,William Shakespeare,biography,Nonfiction Biography,3,available
-Анна Каренина,Лев Толстой,biography,Nonfiction Biography,2,available
+"Advances in Computers, Volume 49 (Advances in Computers)",Marvin V. Zelkowitz,computer science,Nonfiction Technology,3,available
+Job scheduling strategies for parallel processing,"JSSPP'99 (1999 San Juan, P.R.)",computer science,Nonfiction Technology,3,available
+Transactions on Engineering Technologies,Sio-Iong Ao,computer science,Nonfiction Technology,2,available
+Hacking for Dummies,Kevin Beaver,computer science,Nonfiction Technology,3,available
+Artificial Intelligence Applications and Innovations,Lazaros S. Iliadis,computer science,Nonfiction Technology,1,available
+Computational Linguistics and Intelligent Text Processing,Alexander Gelbukh,computer science,Nonfiction Technology,2,available
+Artificial Intelligence and Soft Computing,Leszek Rutkowski,computer science,Nonfiction Technology,3,available
+Intelligent Robotics and Applications,Honghai Liu,computer science,Nonfiction Technology,2,available
+Pattern Recognition,Cheng-Lin Liu,computer science,Nonfiction Technology,2,available
+Computer Concepts,June Jamrich Parsons,computer science,Nonfiction Technology,3,checked out
+"Cooperative Design, Visualization, and Engineering",Yuhua Luo,computer science,Nonfiction Technology,2,available
+Advances in Swarm Intelligence,Ying Tan,computer science,Nonfiction Technology,2,checked out
+Systems Analysis and Design,Alan Dennis,computer science,Nonfiction Technology,2,available
+Advances in Computers,Marshall C. Yovits,computer science,Nonfiction Technology,1,available
+Advances in visual computing,George Bebis,computer science,Nonfiction Technology,1,available
+BTEC National for IT Practitioners,Sharon Yull,computer science,Nonfiction Technology,2,available
+Java software solutions,"Lewis, John",computer science,Nonfiction Technology,1,available
+Computer Confluence,George Beekman,computer science,Nonfiction Technology,1,available
+Linear Algebra with Applications,Gareth Williams,computer science,Nonfiction Technology,2,available
+Heinemann Mathematics,Scottish Primary Mathematics Group,mathematics,Nonfiction Math,2,available
+Elements,Euclid,mathematics,Nonfiction Math,3,available
+Philosophiae naturalis principia mathematica,Sir Isaac Newton,mathematics,Nonfiction Math,1,available
+La charca del diablo,George Sand,mathematics,Nonfiction Math,2,available
+Duineser Elegien,Rainer Maria Rilke,mathematics,Nonfiction Math,3,available
+Essential Maths,Sean McArdle,mathematics,Nonfiction Math,1,available
+A Course of Pure Mathematics,G. H. Hardy,mathematics,Nonfiction Math,1,checked out
+Mathematics,McGraw-Hill,mathematics,Nonfiction Math,3,available
+The economy of machinery and manufactures,Charles Babbage,mathematics,Nonfiction Math,1,available
+Primary Mathematics (SPMG),Scottish Primary Mathematics Group,mathematics,Nonfiction Math,3,available
+Fu qiang zhai cong shu zheng quan ji,Junde Yuan,mathematics,Nonfiction Math,3,checked out
+Linear algebra and its applications,David C. Lay,mathematics,Nonfiction Math,2,available
+La science et l'hypothèse,Henri Poincaré,mathematics,Nonfiction Math,3,available
+Eureka Math - a Story of Units,Great Minds,mathematics,Nonfiction Math,2,available
+Introductory Mathematical Analysis,Ernest F. Haeussler,mathematics,Nonfiction Math,1,available
+A course of modern analysis,E. T. Whittaker,mathematics,Nonfiction Math,2,available
+Don Quijote de la Mancha,Miguel de Cervantes Saavedra,biography,Nonfiction Biography,2,checked out
+Julius Caesar,William Shakespeare,biography,Nonfiction Biography,3,checked out
+Анна Каренина,Лев Толстой,biography,Nonfiction Biography,3,available
 Anne of Green Gables,Lucy Maud Montgomery,biography,Nonfiction Biography,1,available
-Walden,Henry David Thoreau,biography,Nonfiction Biography,1,available
-Narrative of the life of Frederick Douglass,Frederick Douglass,biography,Nonfiction Biography,1,available
-Twelve years a slave,Solomon Northup,biography,Nonfiction Biography,1,available
+Walden,Henry David Thoreau,biography,Nonfiction Biography,2,checked out
+Narrative of the life of Frederick Douglass,Frederick Douglass,biography,Nonfiction Biography,3,checked out
+Twelve years a slave,Solomon Northup,biography,Nonfiction Biography,2,available
 Dubliners,James Joyce,biography,Nonfiction Biography,3,available
-Troilus and Cressida,William Shakespeare,biography,Nonfiction Biography,1,available
-Captains Courageous,Rudyard Kipling,biography,Nonfiction Biography,2,available
-My Ántonia,Willa Cather,biography,Nonfiction Biography,1,checked out
-The Pilgrim's Progress,John Bunyan,biography,Nonfiction Biography,1,available
+Troilus and Cressida,William Shakespeare,biography,Nonfiction Biography,2,available
+Captains Courageous,Rudyard Kipling,biography,Nonfiction Biography,3,checked out
+My Ántonia,Willa Cather,biography,Nonfiction Biography,3,available
+The Pilgrim's Progress,John Bunyan,biography,Nonfiction Biography,3,available
 The Autobiography of Benjamin Franklin,Benjamin Franklin,biography,Nonfiction Biography,2,available
-Bible,Bible,history,Nonfiction History,2,checked out
-The Call of the Wild,Jack London,history,Nonfiction History,2,checked out
-The Secret Garden,Frances Hodgson Burnett,history,Nonfiction History,1,available
-Madame Bovary,Gustave Flaubert,history,Nonfiction History,3,available
+Bible,Bible,history,Nonfiction History,3,available
+The Call of the Wild,Jack London,history,Nonfiction History,2,available
+The Secret Garden,Frances Hodgson Burnett,history,Nonfiction History,3,available
+Madame Bovary,Gustave Flaubert,history,Nonfiction History,1,available
